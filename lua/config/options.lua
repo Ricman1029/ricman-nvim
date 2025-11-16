@@ -20,3 +20,12 @@ vim.opt.inccommand = "split"
 vim.opt.ignorecase = true
 
 vim.opt.termguicolors = true
+
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+
+-- Set up diagnostics
+
+vim.diagnostic.config({
+    virtual_lines = true,
+})
